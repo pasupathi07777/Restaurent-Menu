@@ -20,13 +20,16 @@
     z-index: 10;
 }
 .navbar-1 h3{
+    
     font-weight: 600;
+    margin: 0;
 }
 .search-box{
     display: flex;
     min-width: 100px;
-    max-width: 150px;
+    max-width: 200px;
     margin-right: 50px;
+
     
 }
 .search-box input{
@@ -36,17 +39,19 @@
     border-radius: 5px;
     border: none;
     height: 25px;
+    margin-right: 20px;
+
 }
 .search-box input:focus{
     outline: none;
 }
 
 .cart{
-    /* background-color: aqua; */
+
     position: absolute;
-    right: 3%;
+    right: 20px;
     top: 25%;
-    font-size: 20px;
+    font-size: 20px; 
 }
 
 
@@ -54,13 +59,13 @@
 
 .sliding-cart{
    
-    width: 250px;
+    width: 230px;
     /* min-width: 200px; */
     min-height: 100vh;
     
     background-color: #fff;
     position: absolute;
-    right:0px;
+    right:-250px;
 
     top:50px;
     z-index: 11;
@@ -84,6 +89,7 @@
 
 .box-inbox{
     width: 100%;
+    border-bottom: 1px solid grey;
    
 
 }
