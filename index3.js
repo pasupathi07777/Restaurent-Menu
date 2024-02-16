@@ -101,7 +101,7 @@ function add_item() {
   
     if(cart_conatiner.find(a=> a==name)){
        
-        alert("is's already added")
+        alert("Is's already added")
         return
        
     }else{
@@ -200,7 +200,7 @@ function total_cart_amount(){
        
        
     })
-    total_price.textContent=`RS.${total}`
+    total_price.textContent=`            Rs.     ${total}`
 
 }
 
