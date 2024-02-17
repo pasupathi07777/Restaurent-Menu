@@ -4,6 +4,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    user-select: none;
 }
 
 .navbar-1{
@@ -52,6 +53,7 @@
     right: 20px;
     top: 25%;
     font-size: 20px; 
+    cursor: pointer;
 }
 
 
@@ -307,5 +309,6 @@
     position: absolute;
     bottom: 16px;
     right:16px;
+    cursor: pointer;
 }
 
